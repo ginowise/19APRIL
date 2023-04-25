@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Inter:wght@400;700;800&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "epilogue", Arial, sans-serif;
+}
+
+body {
+    max-width: 1440px;
+
+}
+
+:root {
+    /* --almost-white: hsl(0, 0% 98%); */
+    --almost-white: hsl(0, 0%, 98%);
+    --medium-gray: hsl(0, 0%, 41%);
+    --almost-black: hsl(0, 0%, 8%);
+}
+p{
+    font-size: 18px;
+}
+.nava-btn:focus, .btn-close, .aaordion-item, .accordion-button{
+    border: none !important;
+    box-shadow: none !important
+    outline: none !important
+  
+}
+
+.dropdown-menu{
+    padding:0 0 10% 10% !important;
+   
+}
+.accordion-button{
+    background-color: #fff !important;
+}
+
+.nav-item-mobile{
+    margin-left:1.2rem;
+}
+.hero{
+    height: 80vh
+}
